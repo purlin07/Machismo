@@ -58,7 +58,9 @@
             
             [sender setTitle:randomCard.contents forState:UIControlStateNormal];
         }
+        
     }
+    self.flipCount++;
 }
 
 @end
